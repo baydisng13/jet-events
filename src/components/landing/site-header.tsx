@@ -51,7 +51,10 @@ export function SiteHeader() {
 					aria-label="Tutto home"
 				>
 					<JetMark className="size-8" />
-					<span className="text-ink font-semibold tracking-tight text-[1.05rem]">
+					<span
+						className="font-bold tracking-tight text-[1.08rem]"
+						style={{ color: "var(--sea-ink)" }}
+					>
 						Tutto
 					</span>
 				</a>

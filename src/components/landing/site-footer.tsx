@@ -43,7 +43,10 @@ export function SiteFooter() {
 					<div className="lg:col-span-4">
 						<div className="flex items-center gap-2.5">
 							<JetMark className="size-8" />
-							<span className="text-ink font-semibold tracking-tight text-[1.05rem]">
+							<span
+								className="font-bold tracking-tight text-[1.08rem]"
+								style={{ color: "var(--sea-ink)" }}
+							>
 								Tutto
 							</span>
 						</div>
