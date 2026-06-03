@@ -8,7 +8,7 @@ import { Reveal } from "./reveal";
 
 const FAQS = [
 	{
-		q: "Which payment providers does Jet Events support?",
+		q: "Which payment providers does Tutto support?",
 		a: "Pesapal is integrated for card and mobile money checkout, and bank transfer flows are first-class for CBE, Awash, Dashen and similar local banks. Reach out for additional regional gateways — we'll talk through scope and timing.",
 	},
 	{
@@ -25,7 +25,7 @@ const FAQS = [
 	},
 	{
 		q: "Is white-label branding included?",
-		a: "Branding via primary color and logo is included in every tier. Full white-label deployments — including a custom domain and removal of Jet Events marks — are part of the Enterprise tier.",
+		a: "Branding via primary color and logo is included in every tier. Full white-label deployments — including a custom domain and removal of Tutto marks — are part of the Enterprise tier.",
 	},
 	{
 		q: "Who owns the attendee data?",

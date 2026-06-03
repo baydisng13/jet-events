@@ -31,7 +31,7 @@ export function CtaSection() {
 										id="cta-heading"
 										className="display-title text-[2.2rem] sm:text-[2.8rem] leading-[1.04] font-medium mt-3 text-white"
 									>
-										Let&apos;s plan your next event on Jet Events.
+										Let&apos;s plan your next event on Tutto.
 									</h2>
 									<p className="prose-balance mt-4 text-white/85 text-[1.05rem] max-w-xl font-sans leading-relaxed">
 										Book a 20-minute demo. We&apos;ll walk through the
@@ -47,7 +47,7 @@ export function CtaSection() {
 											className="h-12 rounded-xl px-6 text-[0.95rem] font-semibold bg-white text-[var(--sea-ink)] hover:bg-white/92 shadow-[inset_0_-2px_0_color-mix(in_oklab,var(--sea-ink)_8%,transparent),0_8px_22px_-8px_rgba(0,0,0,0.35)]"
 										>
 											<a
-												href="mailto:hello@jetevents.io?subject=Demo%20request"
+												href="mailto:hello@tutto.io?subject=Demo%20request"
 												className="no-underline inline-flex items-center justify-center gap-2"
 											>
 												<CalendarCheck className="size-4" />
@@ -62,7 +62,7 @@ export function CtaSection() {
 											className="h-12 rounded-xl px-6 text-[0.95rem] font-semibold border-white/22 bg-white/[0.08] !text-white hover:bg-white/14 hover:text-white"
 										>
 											<a
-												href="mailto:hello@jetevents.io?subject=Quick%20question"
+												href="mailto:hello@tutto.io?subject=Quick%20question"
 												className="no-underline inline-flex items-center justify-center gap-2"
 											>
 												<MessageCircle className="size-4" />

@@ -28,7 +28,7 @@ function BadgeCanvasFallback({
 				className,
 			)}
 			role="img"
-			aria-label="Static preview of five Jet Events lanyard badges"
+			aria-label="Static preview of five Tutto lanyard badges"
 		>
 			<div
 				className="pointer-events-none absolute inset-0 opacity-[0.55]"

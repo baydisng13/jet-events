@@ -24,12 +24,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 				content: "width=device-width, initial-scale=1",
 			},
 			{
-				title: "Jet Events — Operating system for conferences & exhibitions",
+				title: "Tutto — Operating system for conferences & exhibitions",
 			},
 			{
 				name: "description",
 				content:
-					"Jet Events is the operating system for conferences and exhibitions in Ethiopia. Ticketing, onsite registration, door scanning and exhibitor ops in one workspace.",
+					"Tutto is the operating system for conferences and exhibitions in Ethiopia. Ticketing, onsite registration, door scanning and exhibitor ops in one workspace.",
 			},
 			{
 				name: "theme-color",

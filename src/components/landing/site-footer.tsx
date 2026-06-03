@@ -44,7 +44,7 @@ export function SiteFooter() {
 						<div className="flex items-center gap-2.5">
 							<JetMark className="size-8" />
 							<span className="text-ink font-semibold tracking-tight text-[1.05rem]">
-								Jet Events
+								Tutto
 							</span>
 						</div>
 						<p className="prose-balance mt-4 text-ink-soft text-[0.95rem] max-w-sm">
@@ -86,7 +86,7 @@ export function SiteFooter() {
 				<div className="fine-divider mt-10" />
 
 				<div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[0.82rem] text-ink-soft">
-					<span>&copy; {year} Jet Events. All rights reserved.</span>
+					<span>&copy; {year} Tutto. All rights reserved.</span>
 					<span className="opacity-80">
 						Pricing in Ethiopian Birr. Subject to scope confirmation.
 					</span>

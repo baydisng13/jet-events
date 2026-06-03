@@ -19,15 +19,15 @@
   --line: rgba(23, 58, 64, 0.14);
   --inset-glint: rgba(255, 255, 255, 0.82);
   --kicker: rgba(47, 106, 74, 0.9);
-  --bg-base: #e7f3ec;
-  --header-bg: rgba(251, 255, 248, 0.84);
+  --bg-base: #ffffff;
+  --header-bg: rgba(255, 255, 255, 0.88);
   --chip-bg: rgba(255, 255, 255, 0.8);
   --chip-line: rgba(47, 106, 74, 0.18);
   --link-bg-hover: rgba(255, 255, 255, 0.9);
   --hero-a: rgba(79, 184, 178, 0.36);
   --hero-b: rgba(47, 106, 74, 0.2);
 
-  --background: oklch(0.985 0.008 170);
+  --background: oklch(1 0 0);
   --foreground: oklch(0.255 0.03 196);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.255 0.03 196);
@@ -187,10 +187,7 @@ body {
   color: var(--sea-ink);
   font-family: var(--font-sans);
   background-color: var(--bg-base);
-  background:
-    radial-gradient(900px 540px at -6% -12%, var(--hero-a), transparent 58%),
-    radial-gradient(820px 520px at 108% -8%, var(--hero-b), transparent 62%),
-    linear-gradient(180deg, color-mix(in oklab, var(--sand) 50%, white) 0%, var(--foam) 38%, var(--bg-base) 100%);
+  background: var(--bg-base);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -203,11 +200,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: -1;
-  opacity: 0.28;
-  background:
-    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.8), transparent 34%),
-    radial-gradient(circle at 78% 26%, rgba(79, 184, 178, 0.2), transparent 42%),
-    radial-gradient(circle at 42% 82%, rgba(47, 106, 74, 0.14), transparent 36%);
+  opacity: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.6), transparent 60%);
 }
 
 body::after {
@@ -216,7 +210,7 @@ body::after {
   inset: 0;
   pointer-events: none;
   z-index: -1;
-  opacity: 0.14;
+  opacity: 0;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
@@ -430,6 +424,15 @@ pre code {
   height: 1px;
   background: currentColor;
   opacity: 0.5;
+}
+
+.partner-logo {
+  filter: grayscale(100%) opacity(0.45);
+  transition: filter 0.35s ease;
+}
+
+.partner-logo:hover {
+  filter: grayscale(0%) opacity(1);
 }
 
 .gradient-text {

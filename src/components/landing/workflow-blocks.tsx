@@ -387,7 +387,7 @@ export function WorkflowPurchasing() {
 			</div>
 			<p className="mt-2 text-sm text-ink">
 				Built for Ethiopia: use the local rails your attendees already trust.
-				Bring the provider you contract with — Jet Events wires in with the API
+				Bring the provider you contract with — Tutto wires in with the API
 				keys you supply, plus a clear configuration surface for webhooks and
 				test mode.
 			</p>
@@ -445,7 +445,7 @@ export function WorkflowPurchasing() {
 						<SettingsRow label="Secret key" value="sk_live_••••••••91cd" />
 						<SettingsRow
 							label="Webhook URL"
-							value="https://api.jetevents.example/hooks/pay"
+							value="https://api.tutto.example/hooks/pay"
 						/>
 						<div className="flex min-w-0 flex-wrap gap-2 pt-1">
 							<span className="rounded-md border border-[color:var(--line)] bg-white px-2 py-1 text-[0.62rem] text-ink-soft">

@@ -3,7 +3,7 @@ type Props = {
 	title?: string;
 };
 
-export function JetMark({ className, title = "Jet Events" }: Props) {
+export function JetMark({ className, title = "Tutto" }: Props) {
 	return (
 		<svg
 			viewBox="0 0 40 40"

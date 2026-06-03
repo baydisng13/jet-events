@@ -4,6 +4,8 @@ import { Faq } from "#/components/landing/faq";
 import { Features } from "#/components/landing/features";
 import { Hero } from "#/components/landing/hero";
 import { Momentum } from "#/components/landing/momentum";
+import { MultiEventSection } from "#/components/landing/multi-event-section";
+import { PaymentsSection } from "#/components/landing/payments-section";
 import { Pricing } from "#/components/landing/pricing";
 import { Problem } from "#/components/landing/problem";
 import { SiteFooter } from "#/components/landing/site-footer";
@@ -15,15 +17,15 @@ export const Route = createFileRoute("/")({
 	component: Home,
 	head: () => ({
 		meta: [
-			{ title: "Jet Events — Operating system for conferences & exhibitions" },
+			{ title: "Tutto — Operating system for conferences & exhibitions" },
 			{
 				name: "description",
 				content:
-					"Jet Events gives Ethiopian event organizers one place to launch ticket sales, run onsite registration, validate badges at the door, and report on exhibitors. Pricing in ETB.",
+					"Tutto gives Ethiopian event organizers one place to launch ticket sales, run onsite registration, validate badges at the door, and report on exhibitors. Pricing in ETB.",
 			},
 			{
 				property: "og:title",
-				content: "Jet Events — Operating system for conferences & exhibitions",
+				content: "Tutto — Operating system for conferences & exhibitions",
 			},
 			{
 				property: "og:description",
@@ -43,6 +45,8 @@ function Home() {
 				<TrustStrip />
 				<Problem />
 				<Features />
+				<PaymentsSection />
+				<MultiEventSection />
 				<Workflows />
 				<Momentum />
 				<Pricing />

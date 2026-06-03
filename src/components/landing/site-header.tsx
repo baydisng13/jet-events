@@ -48,11 +48,11 @@ export function SiteHeader() {
 				<a
 					href="/"
 					className="flex items-center gap-2.5 no-underline"
-					aria-label="Jet Events home"
+					aria-label="Tutto home"
 				>
 					<JetMark className="size-8" />
 					<span className="text-ink font-semibold tracking-tight text-[1.05rem]">
-						Jet Events
+						Tutto
 					</span>
 				</a>
 
@@ -61,7 +61,7 @@ export function SiteHeader() {
 						<a
 							key={item.href}
 							href={item.href}
-							className="nav-link text-sm font-medium no-underline"
+							className="relative text-sm font-medium text-ink-soft hover:text-ink no-underline transition-colors after:content-[''] after:absolute after:left-0 after:bottom-[-10px] after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-[color:var(--lagoon)] after:transition-transform hover:after:scale-x-100"
 						>
 							{item.label}
 						</a>
@@ -77,7 +77,8 @@ export function SiteHeader() {
 					</a>
 					<a
 						href="#cta"
-						className="btn-primary-brand inline-flex items-center justify-center rounded-lg h-9 px-4 text-sm font-semibold no-underline"
+						className="inline-flex items-center justify-center rounded-xs h-9 px-4 text-[0.77rem] uppercase tracking-[0.08em] font-semibold no-underline border hover:bg-[rgba(79,184,178,0.12)]"
+						style={{ color: "var(--lagoon)", borderColor: "var(--lagoon)" }}
 					>
 						Book a demo
 					</a>
@@ -85,7 +86,7 @@ export function SiteHeader() {
 
 				<button
 					type="button"
-					className="md:hidden inline-flex items-center justify-center rounded-md size-9 hairline bg-white"
+					className="md:hidden inline-flex items-center justify-center rounded-xs size-9 border border-[color:var(--line)] bg-white/80 text-ink"
 					onClick={() => setOpen((v) => !v)}
 					aria-label="Toggle menu"
 					aria-expanded={open}
@@ -109,13 +110,14 @@ export function SiteHeader() {
 						<div className="flex items-center gap-2 pt-2">
 							<a
 								href="#login"
-								className="flex-1 text-center text-sm font-semibold text-ink no-underline btn-secondary-brand rounded-lg h-9 inline-flex items-center justify-center"
+								className="flex-1 text-center text-sm font-semibold text-ink no-underline rounded-xs h-9 inline-flex items-center justify-center border border-[color:var(--line)] hover:border-[color:var(--lagoon)]"
 							>
 								Sign in
 							</a>
 							<a
 								href="#cta"
-								className="flex-1 text-center btn-primary-brand inline-flex items-center justify-center rounded-lg h-9 text-sm font-semibold no-underline"
+								className="flex-1 text-center inline-flex items-center justify-center rounded-xs h-9 text-[0.75rem] uppercase tracking-[0.08em] font-semibold no-underline border hover:bg-[rgba(79,184,178,0.12)]"
+								style={{ color: "var(--lagoon)", borderColor: "var(--lagoon)" }}
 							>
 								Book a demo
 							</a>

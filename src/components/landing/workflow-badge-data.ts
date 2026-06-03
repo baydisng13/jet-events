@@ -18,7 +18,7 @@ export const WORKFLOW_BADGE_DATA: Array<WorkflowBadgeData> = [
 		id: "atlas",
 		name: "Tigist Hailu",
 		role: "Summit Host",
-		event: "Jet Events",
+		event: "Tutto",
 		variant: "ember",
 		cardColor: "#151515",
 		inkColor: "#fff7ed",
